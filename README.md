@@ -38,7 +38,7 @@ Create a new repo <NEW_REPO> without any README or gitignore.
 
 4. Set the a new remote origin to your own remote (note you will no longer be able to pull from this original template)
 
-`git remote set-url origin http://github.com/<USER_NAME>/<NEW_REPO>`
+`git remote set-url origin https://github.com/<USER_NAME>/<NEW_REPO>`
 
 5. Verify the new remote
 
@@ -47,3 +47,19 @@ Create a new repo <NEW_REPO> without any README or gitignore.
 6. Push the template to your new repo
 
 `git push`
+
+# FAQ
+
+### It asks for a password everytime I push, how can I push without a password?
+
+This can be done with a personal access token, via the web browser, or via ssh. I will discuss the personal access token method here. 
+
+1. Generate a new token [here](https://github.com/settings/tokens)
+
+2. Set the remote url with this newly generated token
+
+`git remote set-url origin https://<USER_NAME>:<NEW_TOKEN>@github.com/<USER_NAME>/<NEW_REPO>`
+
+3. Example
+
+`git remote set-url origin https://mwesterham:ghp_manylettersandnumbers@github.com/mwesterham/brand-new-flowbite-repo`
