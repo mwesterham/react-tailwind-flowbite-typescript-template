@@ -20,16 +20,24 @@ Its sole purpose is to circumvent the tedious task of remembering the dependenci
 
 `git clone https://github.com/mwesterham/react-tailwind-flowbite-typescript-template <NEW_REPO>`
 
-2. Set the a new remote origin to your own remote (note you will no longer be able to pull from this original template)
+2. Install and run the project
+
+`npm install`
+
+`npm test`
+
+`npm start`
+
+3. Set the a new remote origin to your own remote (note you will no longer be able to pull from this original template)
 
 `cd <NEW_REPO>`
 
 `git remote set-url origin http://github.com/<USER_NAME>/<NEW_REPO>`
 
-3. Verify the new remote
+4. Verify the new remote
 
 `git remote -v`
 
-4. Push the template to your new repo
+5. Push the template to your new repo
 
 `git push`
