@@ -63,3 +63,7 @@ This can be done with a personal access token, via the web browser, or via ssh. 
 3. Example
 
 `git remote set-url origin https://mwesterham:ghp_manylettersandnumbers@github.com/mwesterham/brand-new-flowbite-repo`
+
+# License
+
+[MIT License](LICENSE)
