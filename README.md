@@ -22,6 +22,8 @@ Its sole purpose is to circumvent the tedious task of remembering the dependenci
 
 2. Install and run the project
 
+`cd <NEW_REPO>`
+
 `npm install`
 
 `npm test`
@@ -29,8 +31,6 @@ Its sole purpose is to circumvent the tedious task of remembering the dependenci
 `npm start`
 
 3. Set the a new remote origin to your own remote (note you will no longer be able to pull from this original template)
-
-`cd <NEW_REPO>`
 
 `git remote set-url origin http://github.com/<USER_NAME>/<NEW_REPO>`
 
