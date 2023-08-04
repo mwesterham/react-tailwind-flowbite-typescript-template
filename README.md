@@ -16,11 +16,17 @@ Its sole purpose is to circumvent the tedious task of remembering the dependenci
 
 ### Recommended Usage
 
-1. Clone this repo locally
+1. Create a new repository (only if you don't have a repo to push to yet)
+
+Go to [create a new repo on github](https://github.com/new).
+
+Create a new repo <NEW_REPO> without any README or gitignore.
+
+2. Clone this repo locally
 
 `git clone https://github.com/mwesterham/react-tailwind-flowbite-typescript-template <NEW_REPO>`
 
-2. Install and run the project
+3. Install and run the project
 
 `cd <NEW_REPO>`
 
@@ -30,14 +36,14 @@ Its sole purpose is to circumvent the tedious task of remembering the dependenci
 
 `npm start`
 
-3. Set the a new remote origin to your own remote (note you will no longer be able to pull from this original template)
+4. Set the a new remote origin to your own remote (note you will no longer be able to pull from this original template)
 
 `git remote set-url origin http://github.com/<USER_NAME>/<NEW_REPO>`
 
-4. Verify the new remote
+5. Verify the new remote
 
 `git remote -v`
 
-5. Push the template to your new repo
+6. Push the template to your new repo
 
 `git push`
